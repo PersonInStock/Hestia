@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hestia.fragments.AddRecipes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/iv_foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/index"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <EditText
+            android:id="@+id/txtRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/recipe_name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#6A7581"
+            android:textSize="19sp"
+            android:textColor="?attr/text_color"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/description"
+            android:minHeight="48dp"
+            android:textColorHint="#6A7581"
+            android:textSize="19sp"
+            android:inputType="text"
+            android:textColor="?attr/text_color"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/txtIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/ingredients"
+            android:minHeight="48dp"
+            android:textColorHint="#6A7581"
+            android:textSize="19sp"
+            android:inputType="text"
+            android:textColor="?attr/text_color"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/txtDirections"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/directions"
+            android:minHeight="48dp"
+            android:inputType="text"
+            android:textColor="?attr/text_color"
+            android:textColorHint="#6A7581"
+            android:textSize="19sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/txtDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:autofillHints=""
+            android:hint="@string/difficulty_easy_medium_hard"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColor="?attr/text_color"
+            android:textColorHint="#6A7581"
+            android:textSize="19sp" />
+
+        <Button
+            android:id="@+id/selectImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/select_image"
+            android:textColor="?attr/text_color"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/uploadRecipeButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/upload_recipe"
+            android:textColor="?attr/text_color"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,19 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="layout_margin_Top"> 50dp</dimen>
+    <dimen name="layout_margin_Top_20">20dp</dimen>
+    <dimen name="layout_margin_Top_516">516dp</dimen>
+    <dimen name="margin_Start">30dp</dimen>
+    <dimen name="margin_End">30dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="drawablePadding">12dp</dimen>
+    <dimen name="layout_height">60dp</dimen>
+
+
+
+
+
+</resources>

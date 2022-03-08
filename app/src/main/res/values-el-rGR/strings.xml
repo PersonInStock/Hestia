@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hestia</string>
+    <string name="add_recipe">προσθήκη συνταγής</string>
+    <string name="settings">"Ρυθμίσεις"</string>
+    <string name="password">Κωδικός</string>
+    <string name="sign_in">"Είσοδος "</string>
+    <string name="New_Here">Νέος Χρήστης?</string>
+    <string name="Create_Account">Εγγραφή</string>
+    <string name="Already_Have_an_Account">Έχεις Λογαριασμό?</string>
+    <string name="Confirm_Password">Επιβεβαίωση κωδικού</string>
+    <string name="theme">Θέμα</string>
+    <string name="about">Σχετικά</string>
+    <string name="title_recipe">Συνταγές</string>
+    <string name="login">"Είσοδος "</string>
+    <string name="difficulty">Δυσκολία</string>
+    <string name="title">Τίτλος</string>
+    <string name="calendar">Ημερολόγιο</string>
+    <string name="alarm_set">"Ξυπνητήρι "</string>
+
+    <string name="select_image">Επιλογή Φωτογραφίας</string>
+    <string name="difficulty_easy_medium_hard">Δυσκολία (Εύκολο,Μεσαίο,Δύσκολο)</string>
+    <string name="upload_recipe">Ανέβασμα συνταγής</string>
+    <string name="directions">"Οδηγίες "</string>
+    <string name="ingredients">Υλικά</string>
+    <string name="description">Περιγραφή</string>
+    <string name="recipe_name">Όνομα συνταγής</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="pick_date">Διάλεξε μέρα</string>
+
+    <string name="MapView">Χάρτης</string>
+    <string name="title_activity_maps">Δραστηριότητα χαρτών</string>
+
+    <string name="date">Ημερομηνία</string>
+
+    <string name="version">Έκδοση</string>
+    <string name="about_the_app">Σχέτικα με την εφαρμογή</string>
+    <string name="github_vasilis" >GitHub(Βασίλη)</string>
+    <string name="github_johnjohn" >GitHub(Ιωάννη)</string>
+    <string name="your_primary_food_app" >Η κυρίαρχη εφαρμογή φαγητού</string>
+    <string name="about_us">Σχετικά με εμάς</string>
+
+    <string name="set_alarm">Βάλε ξυπνητήρι</string>
+    <string name="my_alarm" >Το ξυπνητήρι μου</string>
+
+    <string name="write_todo_here" >Εισχώρηση εβδομαδιαίου μενου!</string>
+    <string name="to_do_list" >Λίστα εβδομαδιαίου μενου</string>
+    <string name="extras">Πρόσθετα</string>
+    <string name="add">Προσθέστε συνταγή</string>
+    <string name="view">Δείτε της συνταγές</string>
+    <string name="light_mode">Λειτουργία Φωτός</string>
+    <string name="dark_mode">Σκοτεινή Λειτουργία</string>
+    <string name="system_default">Προεπιλογή συστήματος</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentSett"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        tools:context=".ui.SettingActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/settings"
+            android:textColor="?attr/text_color"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/navButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/ic_menu_mapmode"
+            android:padding="16dp"
+            android:text="@string/MapView"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_mapmode"
+            app:iconSize="34sp"
+            app:iconTint="?attr/text_color" />
+
+        <Button
+            android:id="@+id/timer_Button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/ic_menu_recent_history"
+            android:padding="16dp"
+            android:text="@string/alarm_set"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_recent_history"
+            app:iconSize="34sp"
+            app:iconTint="?attr/text_color" />
+
+        <Button
+            android:id="@+id/About_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/ic_menu_info_details"
+            android:padding="16dp"
+            android:text="@string/about"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_info_details"
+            app:iconSize="34sp"
+            app:iconTint="?attr/text_color" />
+
+        <Button
+            android:id="@+id/Calendar_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/ic_menu_info_details"
+            android:padding="16dp"
+            android:text="@string/calendar"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_today"
+            app:iconSize="34sp"
+            app:iconTint="?attr/text_color" />
+
+        <Button
+            android:id="@+id/todo_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/ic_menu_edit"
+            android:padding="16dp"
+            android:text="@string/to_do_list"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:iconSize="34sp"
+            app:iconTint="?attr/text_color" />
+        <Button
+            android:id="@+id/change_theme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@android:drawable/ic_menu_recent_history"
+            android:padding="16dp"
+            android:text="@string/theme"
+            android:textColor="?attr/text_color"
+            android:textSize="24sp"
+            app:icon="@drawable/ic_baseline_add"
+            app:iconSize="34sp"
+            app:iconTint="?attr/text_color" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

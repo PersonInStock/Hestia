@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/view"
+    android:icon="@drawable/ic_baseline_view"
+    android:title="@string/view" />
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/ic_baseline_add"
+        android:title="@string/add" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/extras" />
+</menu>

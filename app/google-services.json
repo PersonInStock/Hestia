@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075941198709",
+    "firebase_url": "https://hestia-f425c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "hestia-f425c",
+    "storage_bucket": "hestia-f425c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075941198709:android:f54c464f80190a46eb213c",
+        "android_client_info": {
+          "package_name": "com.hestia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075941198709-2cu5fvh1ns5sq6l0cfc376lh1b8phf0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hestia",
+            "certificate_hash": "f767ab7ba67b51429d87f604a634aab6a9e3a4cd"
+          }
+        },
+        {
+          "client_id": "1075941198709-s24s4ksl6ind1u1fg5jlscqmi5qhla8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfCUygx5P7Jro8wEif3tEGviRDp0FHq1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075941198709-s24s4ksl6ind1u1fg5jlscqmi5qhla8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

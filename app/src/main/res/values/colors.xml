@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1B7FDF</color>
+    <color name="colorPrimaryDark">#003FBD</color>
+    <color name="Turquoise">#48d1cc</color>
+    <color name="Black">#000000</color>
+    <color name="purple_200">#58BCF3</color>
+    <color name="purple_500">#58BCF3</color>
+    <color name="purple_700">#050505</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorGray">#808080</color>
+
+    <color name="colorInputText">#273d52</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="buttonColorLight">#1B7FDF</color>
+    <!-- Light. -->
+    <color name="textColorLight">#000000</color>
+    <color name="backgroundLight">#F2F2F2</color>
+
+
+    <!-- Dark. -->
+    <color name="textColorDark">#F2F2F2</color>
+
+    <color name="backgroundDark">#000000</color>
+
+
+</resources>

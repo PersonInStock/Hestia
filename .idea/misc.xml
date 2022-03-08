@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/_Vasilis_Dim/Desktop/hestiateliko/app/src/main/res/layout/activity_register.xml" value="0.302536231884058" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable-v24/btn_round.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable-v24/btn_round_1.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable-v24/custome_edit_text.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable-v24/custome_edit_text_1.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable-v24/ic_mode_edit_black_24dp.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable-v24/ic_search_black_24dp.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable-v24/rounded_button.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable/ic_baseline_add.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable/ic_baseline_view.xml" value="0.203" />
+        <entry key="..\:/Users/grl/Desktop/Hestia/app/src/main/res/drawable/testicon_background.xml" value="0.203" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

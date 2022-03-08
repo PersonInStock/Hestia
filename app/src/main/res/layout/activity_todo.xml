@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/parentL"
+        android:layout_height="match_parent"
+        tools:context=".TodoActivity">
+
+    <EditText
+        android:id="@+id/eTextS"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:background="@drawable/custome_edit_text"
+        android:drawableStart="@drawable/ic_search_black_24dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:textColor="@color/Black"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/colorGray"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/eText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:autofillHints=""
+        android:background="@drawable/custome_edit_text_1"
+        android:drawableStart="@drawable/ic_mode_edit_black_24dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        android:hint="@string/write_todo_here"
+        android:inputType="text"
+        android:textColor="@color/Black"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/colorGray"
+        android:textSize="20sp" />
+
+    <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_round"
+            android:elevation="@dimen/cardview_compat_inset_shadow"
+            android:src="@android:drawable/ic_input_add"
+            tools:ignore="ContentDescription,TouchTargetSizeCheck,ImageContrastCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btnDelet"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_round_1"
+            android:elevation="@dimen/cardview_compat_inset_shadow"
+            android:src="@android:drawable/ic_menu_delete"
+            tools:ignore="ContentDescription,TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </LinearLayout>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <ListView
+            android:textColor="?attr/text_color"
+                android:id="@+id/todoView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </ListView>
+
+    </FrameLayout>
+</LinearLayout>

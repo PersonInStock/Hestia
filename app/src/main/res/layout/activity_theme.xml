@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemeActivity">
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/lightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/light_mode"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="?attr/text_color" />
+
+        <RadioButton
+            android:id="@+id/darkButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dark_mode"
+            android:minHeight="48dp"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="?attr/text_color" />
+
+        <RadioButton
+            android:id="@+id/defaultButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/system_default"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="?attr/text_color" />
+    </RadioGroup>
+
+</LinearLayout>
