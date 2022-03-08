@@ -19,7 +19,4 @@ Features to be developed
 - Editable Ingredients list  
 - Recipe evaluation
 - Weekly Meal Planner
-
-
-
-![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)![](Aspose.Words.3da60528-f65e-435e-9845-54c9be90a195.001.jpeg)
+- 
